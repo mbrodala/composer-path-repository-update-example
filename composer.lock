@@ -1,0 +1,36 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "adde092c7ace1bc9d0b0dd8143b1c301",
+    "packages": [
+        {
+            "name": "acme/local-package",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/local-package",
+                "reference": "45ffe50c815203aee22b95fd13b915fd0b456aae"
+            },
+            "type": "library",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "acme/local-package": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "~7.4.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

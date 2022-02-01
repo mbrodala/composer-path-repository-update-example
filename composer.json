@@ -1,0 +1,13 @@
+{
+    "name": "acme/composer-path-repository-update-example",
+    "require": {
+        "php": "~7.4.0",
+        "acme/local-package": "@dev"
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "./packages/*/"
+        }
+    }
+}
